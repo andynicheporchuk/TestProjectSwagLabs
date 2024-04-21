@@ -12,6 +12,5 @@ public class SeleniumTests extends TestBase {
     void testLogIn() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         mainPage.logIn();
-        Thread.sleep(5000);
     }
 }
